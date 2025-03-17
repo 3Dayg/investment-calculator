@@ -1,11 +1,11 @@
-import IconImg from '../assets/investment-calculator-logo.png';
+import Logo from '../assets/investment-calculator-logo.png';
 
 export function Header() {
   return (
     <header id="header">
-      <img src={IconImg} alt="Money bag" />
+      <img src={Logo} alt="Money bag logo" />
       <h1>
-        React Investment Calculator
+        Investment Calculator
       </h1>
     </header>
   );
